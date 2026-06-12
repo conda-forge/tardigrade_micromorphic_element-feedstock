@@ -1,4 +1,4 @@
-{% set version = "1.4.7" %}
+{% set version = "1.4.8" %}
 
 package:
   name: tardigrade_micromorphic_element
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/UCBoulder/tardigrade_micromorphic_element/archive/refs/tags/{{ version }}.tar.gz
-  sha256: f53719ec536e8d474b976392b620fb48df8abc138c80ae423c11795950e7bd14
+  sha256: 3f27d597402f243dcf39956acbd40b7cb8e98c8f6b74ecc635eed138c920ab65
 
 build:
-  number: 1
+  number: 0
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   script:
